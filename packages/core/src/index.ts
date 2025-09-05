@@ -1071,7 +1071,7 @@ export abstract class PostHogCoreStateless {
     this._events.emit('flush', sentMessages)
   }
 
-  private async fetchWithRetry(
+  protected async fetchWithRetry(
     url: string,
     options: PostHogFetchOptions,
     retryOptions?: Partial<RetriableOptions>,
