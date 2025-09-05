@@ -51,7 +51,7 @@ import { PromiseQueue } from './utils/promise-queue'
 export { getFeatureFlagValue } from './featureFlagUtils'
 export * from './utils'
 
-class PostHogFetchHttpError extends Error {
+export class PostHogFetchHttpError extends Error {
   name = 'PostHogFetchHttpError'
 
   constructor(
@@ -74,7 +74,7 @@ class PostHogFetchHttpError extends Error {
   }
 }
 
-class PostHogFetchNetworkError extends Error {
+export class PostHogFetchNetworkError extends Error {
   name = 'PostHogFetchNetworkError'
 
   constructor(public error: unknown) {
