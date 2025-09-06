@@ -1,6 +1,6 @@
 {
   "name": "@fun-tech-software/posthog-web-core",
-  "version": "11.0.3.rc-1",
+  "version": "11.0.3-rc.1",
   "license": "MIT",
   "main": "dist/index.js",
   "module": "dist/index.mjs",
