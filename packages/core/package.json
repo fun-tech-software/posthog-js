@@ -1,14 +1,17 @@
 {
   "name": "@fun-tech-software/posthog-web-core",
-  "version": "11.0.2",
+  "version": "11.0.3.rc-1",
   "license": "MIT",
   "main": "dist/index.js",
   "module": "dist/index.mjs",
   "types": "dist/index.d.ts",
   "repository": {
     "type": "git",
-    "url": "https://github.com/PostHog/posthog-js.git",
+    "url": "https://github.com/fun-tech-software/posthog-js.git",
     "directory": "packages/core"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
   },
   "files": [
     "dist"
